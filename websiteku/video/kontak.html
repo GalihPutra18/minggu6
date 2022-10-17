@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contoh Project Pemrogaman Website</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="shortcut icon" sizes="180x180" href="favicon-home.ico" type="image/x-icon">
+    <link rel="shortcut icon" sizes="250x250" href="favicon-contact.ico" type="image/x-icon" >
 </head>
 <body class="body">
     <nav class="nav" >
@@ -15,48 +15,28 @@
         <a href="tentang.html">About Me</a> |
         <a href="ikutisaya.html">Ikuti Saya</a>
     </nav> 
-    <div>
-        <hr>
-        <header style="text-align: center;" >
-            <img src="galih.jpg" alt="ini adalah foto profil" width="200" height="200" class="img">
-            <h1>Galih Putra Pratama</h1>
-            <p>(Calon Web Developer)</p>
-        </header>
-        <hr>
-        <article style="text-align: center;" class="overview">
-            <h2>Overview</h2>
-            <p>
-                Hi, saya merupakan mahasiswa baru Universitas Dian Nuswantoro yang saat ini sedang belajar tentang web development dan ingin menjadi seorang web developer
-            </p>
-        </article>
-        <div style="max-width: 600px; margin: 3em auto">
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>Skills</th>
-                        <th>Pengalaman</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                            <ul>
-                                <li>Menguasai bahasa html dan css untuk pemrogaman website sederhana</li>
-                                <li>menguasai pengolahan visual menggunakan photoshop</li>
-                                <li>Mengetik 10 jari</li>
-                            </ul>
-                        </td>
-                        <td style="text-align: center;">
-                            Membuat project desain web menggunakan HTML, CSS, Javascript
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <hr>
-        <footer style="text-align: center;" class="footer" >
-            <p>Copyright & copy; 2022 Galih Putra Pratama</p>
-        </footer>
-    </div>
-</body>
+ 
+    <hr> 
+ 
+    <div> 
+        <h1>Kontak Saya </h1> 
+        <form method="post" action="proses.php" class="kontak"> 
+            <label for="nama">Nama:</label><br>
+            <input type="text" id="nama" name="nama" placeholder="masukan nama anda...."><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="alamat email">
+            <br > 
+            <label for="message">Pesan:</label><br> 
+            <textarea name="message" id="message" placeholder="Tulis pesan anda..." rows="4" cols="80"></textarea> 
+            <br> 
+            <br> 
+            <input type="submit" value="Kirim"> 
+        </form> 
+    </div> 
+ 
+    <hr> 
+    <footer style="text-align: center;"> 
+        <p>Copyright &copy; 2020 Galih Putra Pratama</p> 
+    </footer> 
+</body> 
 </html>
